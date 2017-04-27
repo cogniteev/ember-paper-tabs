@@ -29,7 +29,7 @@ An exemple usage:
 ember install ember-paper-tabs
 ```
 
-Don't forget to import your styles in yout `app.scss` **after* importing ember paper styles:
+Don't forget to import your styles in your `app.scss` **after** importing ember paper styles:
 
 ```scss
 @import "ember-paper";
