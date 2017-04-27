@@ -40,9 +40,11 @@ export default Component.extend(ColorMixin, ParentMixin, {
   stretchTabs: 'auto',
   autoSelect: false,
   borderBottom: false,
+  theme: 'default',
 
   classNameBindings: [
-    'dynamicHeight:md-dynamic-height'
+    'dynamicHeight:md-dynamic-height',
+    'themeClass'
   ],
 
   attributeBindings: [
@@ -50,6 +52,10 @@ export default Component.extend(ColorMixin, ParentMixin, {
     'borderBottomAttr:md-border-bottom',
     'styleAttr:style'
   ],
+
+  themeClass: computed('theme', function() {
+    return `md-${this.get('theme')}-theme`;
+  }),
 
   alignTabsAttr: computed('alignTabs', function() {
     return htmlSafe(this.get('alignTabs'));
