@@ -1,4 +1,5 @@
-# ember-paper-tabs [![Build Status](https://travis-ci.org/cogniteev/ember-paper-tabs.svg?branch=master)]
+# ember-paper-tabs [![Build Status](https://travis-ci.org/cogniteev/ember-paper-tabs.svg?branch=master)](https://travis-ci.org/cogniteev/ember-paper-tabs)
+
 
 This is an [ember-paper](https://github.com/miguelcobain/ember-paper) addon that provides an implementation of [material tabs](https://material.io/guidelines/components/tabs.html).
 
