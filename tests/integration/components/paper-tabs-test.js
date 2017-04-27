@@ -124,11 +124,11 @@ test('it handles tabs with dynamic height', function(assert) {
     {{/paper-tabs}}
   `);
 
-  assert.equal(this.$('md-tabs').attr('style'), 'transition: all 0.5s cubic-bezier(0.35, 0, 0.25, 1); height: 70px');
+  assert.equal(this.$('md-tabs').attr('style'), 'transition: all 0.5s cubic-bezier(0.35, 0, 0.25, 1); height: 67px');
 
   this.$('md-tab-item:nth(1)').click();
 
-  assert.equal(this.$('md-tabs').attr('style'), 'transition: all 0.5s cubic-bezier(0.35, 0, 0.25, 1); height: 158px');
+  assert.equal(this.$('md-tabs').attr('style'), 'transition: all 0.5s cubic-bezier(0.35, 0, 0.25, 1); height: 143px');
 });
 
 test('it should stretches tabs in mobile if stretchTabs=auto unless shouldPaginate is true', function(assert) {
