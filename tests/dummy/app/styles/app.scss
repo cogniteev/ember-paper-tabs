@@ -1,2 +1,10 @@
 @import "ember-paper";
 @import "ember-paper-tabs";
+
+body {
+  background: #F6F7FC;
+}
+
+.demo-container {
+  padding: 40px 80px;
+}
