@@ -23,6 +23,8 @@ An exemple usage:
   {{/paper-tabs}}
 ```
 
+## You can see how this addon looks like at https://cogniteev.github.io/ember-paper-tabs/
+
 ## Installation
 
 ```bash
