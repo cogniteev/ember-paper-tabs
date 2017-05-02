@@ -17,9 +17,9 @@ An exemple usage:
         Tab 1      
       {{/tab.label}}
       
-      {{#tab.content}}
+      {{#tab.body}}
         Content 2
-      {{/tab.content}}
+      {{/tab.body}}
     {{/tabs.tab}}
   {{/paper-tabs}}
 ```
