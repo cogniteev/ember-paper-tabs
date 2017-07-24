@@ -1,3 +1,10 @@
+# This addon is inactive
+
+The `paper-tabs` are now available in `ember-paper`, this addon is no longer active.
+
+http://miguelcobain.github.io/ember-paper/#/components/tabs
+
+
 # ember-paper-tabs [![Build Status](https://travis-ci.org/cogniteev/ember-paper-tabs.svg?branch=master)](https://travis-ci.org/cogniteev/ember-paper-tabs)
 
 
